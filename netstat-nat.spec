@@ -47,7 +47,7 @@ rm -rf ${RPM_BUILD_ROOT}
 %files
 %defattr(-,root,root)
 %doc AUTHORS COPYING INSTALL README
-%attr(644,root,root) %{_mandir}/man1/netstat-nat.1.bz2
+%attr(644,root,root) %{_mandir}/man1/netstat-nat.*
 %attr(755,root,root) %{_bindir}/netstat-nat
 
 

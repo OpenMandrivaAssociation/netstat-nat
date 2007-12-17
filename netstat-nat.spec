@@ -13,7 +13,6 @@ License: 	GPL
 URL:		http://tweegy.demon.nl/projects/netstat-nat/index.html
 #Requires: 	
 Provides:	netstat-nat
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 Prefix:         %{_prefix}
 Source:         %{name}-%{version}.tar.bz2
 #Source1:

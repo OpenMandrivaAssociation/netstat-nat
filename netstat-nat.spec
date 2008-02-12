@@ -1,5 +1,5 @@
 %define name   netstat-nat 
-%define version 1.4.8
+%define version 1.4.9
 %define release %mkrel 1
 %define lib_major 1
 %define lib_name %{mklibname} %{name} %{lib_major}
@@ -13,7 +13,6 @@ License: 	GPL
 URL:		http://tweegy.demon.nl/projects/netstat-nat/index.html
 #Requires: 	
 Provides:	netstat-nat
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 Prefix:         %{_prefix}
 Source:         %{name}-%{version}.tar.bz2
 #Source1:

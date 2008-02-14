@@ -7,6 +7,7 @@
 Name:           %{name}
 Summary: 	Displays NAT connections, managed by netfilter/iptables 
 Group:		Networking/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Version:        %{version}
 Release:        %{release}
 License: 	GPL

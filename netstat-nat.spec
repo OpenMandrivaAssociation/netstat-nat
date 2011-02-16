@@ -1,6 +1,6 @@
 %define name   netstat-nat 
 %define version 1.4.9
-%define release %mkrel 5
+%define release %mkrel 6
 %define lib_major 1
 %define lib_name %{mklibname} %{name} %{lib_major}
 

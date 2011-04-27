@@ -1,6 +1,6 @@
 %define name   netstat-nat 
-%define version 1.4.9
-%define release %mkrel 6
+%define version 1.4.10
+%define release %mkrel 1
 %define lib_major 1
 %define lib_name %{mklibname} %{name} %{lib_major}
 
@@ -11,7 +11,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Version:        %{version}
 Release:        %{release}
 License: 	GPL
-URL:		http://tweegy.demon.nl/projects/netstat-nat/index.html
+URL:		http://tweegy.nl/projects/netstat-nat/
 #Requires: 	
 Provides:	netstat-nat
 Prefix:         %{_prefix}

@@ -37,9 +37,9 @@ rm -rf %{buildroot}
 %install
 mkdir -p %{buildroot}%{_bindir}
 mkdir -p %{buildroot}%{_mandir}/man1
-install -m755 $RPM_BUILD_DIR/%{name}-%{version}/netstat-nat %{buildroot}%{_bindir}/netstat-nat
-#bzip2 $RPM_BUILD_DIR/%{name}-%{version}/netstat-nat.1
-install -m644 $RPM_BUILD_DIR/%{name}-%{version}/netstat-nat.1 %{buildroot}%{_mandir}/man1/netstat-nat.1
+install -m755 %{_builddir}/%{name}-%{version}/netstat-nat %{buildroot}%{_bindir}/netstat-nat
+#bzip2 %{_builddir}/%{name}-%{version}/netstat-nat.1
+install -m644 %{_builddir}/%{name}-%{version}/netstat-nat.1 %{buildroot}%{_mandir}/man1/netstat-nat.1
 
 %clean
 rm -rf %{buildroot}

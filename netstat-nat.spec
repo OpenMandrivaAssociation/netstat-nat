@@ -27,7 +27,7 @@ the temporary conntrack-storage of netfilter. (http://netfilter.samba.org/)
 Netstat-nat takes several arguments (but not needed).
 
 %prep
-rm -rf ${RPM_BUILD_ROOT}
+rm -rf %{buildroot}
 %setup -q -n %{name}-%{version}
 
 %build
@@ -42,7 +42,7 @@ install -m755 $RPM_BUILD_DIR/%{name}-%{version}/netstat-nat %{buildroot}%{_bindi
 install -m644 $RPM_BUILD_DIR/%{name}-%{version}/netstat-nat.1 %{buildroot}%{_mandir}/man1/netstat-nat.1
 
 %clean
-rm -rf ${RPM_BUILD_ROOT}
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)

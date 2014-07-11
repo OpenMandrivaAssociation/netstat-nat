@@ -5,7 +5,7 @@ Summary:	Displays NAT connections, managed by netfilter/iptables
 Name:		netstat-nat
 Group:		Networking/Other
 Version:	1.4.10
-Release:	7
+Release:	8
 License:	GPLv2
 Provides:	netstat-nat
 Url:		http://tweegy.nl/projects/netstat-nat/

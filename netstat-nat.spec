@@ -8,7 +8,7 @@ Version:	1.4.10
 Release:	13
 License:	GPLv2
 Provides:	netstat-nat
-Url:		http://tweegy.nl/projects/netstat-nat/
+Url:		https://tweegy.nl/projects/netstat-nat/
 Source0:	%{name}-%{version}.tar.bz2
 
 %description

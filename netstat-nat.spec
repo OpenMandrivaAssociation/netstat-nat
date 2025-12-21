@@ -11,6 +11,11 @@ Provides:	netstat-nat
 Url:		https://tweegy.nl/projects/netstat-nat/
 Source0:	%{name}-%{version}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Netstat-nat is a small program written in C. It displays NAT connections, 
 managed by netfilter/iptables which comes with the > 2.4.x linux kernels. 
